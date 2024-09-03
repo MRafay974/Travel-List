@@ -12,7 +12,7 @@ export default function Stats({ items }) {
   return (
     <footer className="stats">
       <em>
-        {percentage == 100
+        {percentage === 100
           ? "You are ready to Go 😀"
           : `You have ${numItems} items on your list, and you already packed ${packed}
         `}
